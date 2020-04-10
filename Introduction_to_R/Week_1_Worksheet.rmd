@@ -136,6 +136,7 @@ Here we will mimick calculating Fold Change for 10 simulated genes in 2 samples 
 
 
 ## Note to self: Add comments and build up how to calc Fold Change (reciprocal if < 1).. 
+## Create function to calculate recip?
 ```{R}
 set.seed(11384191)
 sample_1 <- list(sample(runif(10, 0, 1000)))
